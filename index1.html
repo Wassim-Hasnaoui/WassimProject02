@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f45038444f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="project2-2.css">
+    <title>Login & Registration</title>
+</head>
+<body>
+ <div id="wrapper">
+    <nav id="nav">
+        <div id="navlogo">
+            <p>GAME OVER</p>
+        </div>
+    </nav>
+    <div class="login-container" id="login">
+        <div id="top">
+            <span>Don't Have an account?
+                <button id="sign">Sign Up</button>
+            </span>
+            <header>Login</header>
+        </div>
+        <div id="Email1">
+            <input type="text" name="Email" id="Email" required placeholder="Email">
+        </div>
+        <div  id="password1">
+            <input type="password" name="password" id="password" placeholder="Password" required>
+        </div>
+        <div id="submit">
+            <button id="butt1" onclick="signIn()">Sign In</button>
+        </div>
+    </div>
+ </div>
+
+        
+
+<script>
+    document.getElementById("sign").onclick = function () { 
+                         location.href = "index.html";  
+   };  
+
+
+  var users = new Array();
+
+function signIn() {
+    var email = document.getElementById("Email").value;
+    var password = document.getElementById("password").value;
+
+    var users = JSON.parse(localStorage.getItem("users")) || [];
+    if (users.some((v) => {
+        return v.email == email && v.password == password;
+    })) {
+        location.href = "Home.html";
+        return;
+    } else {
+        alert("Wrong email or password");
+        return;
+    }
+}
+    
+</script>
+</body>
+</html>    
