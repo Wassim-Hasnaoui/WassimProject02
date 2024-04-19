@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="project2.css">
+    <title>Project2</title>
+    <script src="https://kit.fontawesome.com/f45038444f.js" ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <a href="#"><img src="pictures/logo.png" class="logo" alt="logo5">
+            <i href="index.html"></i>
+        </a>
+        <h1>GAME OVER</h1>
+        <div>
+            <ul id="navbar">
+                <li><a href="Home.html">Home</a></li>
+                <li><a class="active" href="Products.html">Products</a></li>
+                <li><a href="Discounts.html">Discounts</a></li>
+                <li><a href="About.html">About Us</a></li>
+            </ul>
+            <div id="cart">
+                <i><button id="car" class="fa-solid fa-cart-shopping"></button></i>
+                <h6>$0.00</h6>
+            </div>
+            <div class="topnav">
+                <a class="active" href="#home">
+                    <i class="fas fa-search"></i>
+                </a>
+                <input type="text" id="searchb" placeholder="Search..">
+              </div>
+        </div>
+    </header>
+    <section id="hero">
+        <h3>Products :</h3>
+    </section>
+    <section id="Product1" class="section-p1">
+        <div id="procontainer">
+            <div class="pro">
+                <img src="pictures/nvidia.jpg" alt="">
+                <div class="des">
+                    <span>NVIDIA</span>
+                    <h5>RTX 4090</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$1,819</h4>
+                </div>
+                <a href="#"><i id="trans" onclick="add()" class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/Radeon.jpg" alt="">
+                <div class="des">
+                    <span>AMD</span>
+                    <h5>Radeon RX 7600 XT</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$1,538</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/IntelCore.jpg" alt="">
+                <div class="des">
+                    <span>IntelCore</span>
+                    <h5>I9-14900K 14th Gen</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$540</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/AMD.jpg" alt="">
+                <div class="des">
+                    <span>AMD</span>
+                    <h5>Ryzen 8000 Zen 5</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$599</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/ASUS GeForce GTX 1660 Super.jpg" alt="">
+                <div class="des">
+                    <span>ASUS</span>
+                    <h5>GeForce GTX 1660 Super</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$299.95</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/ROG Zephyrus G14.jpg" alt="">
+                <div class="des">
+                    <span>ASUS</span>
+                    <h5>ROG Zephyrus G14</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$1,499</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/GS66 Stealth.jpg" alt="">
+                <div class="des">
+                    <span>MSI</span>
+                    <h5>GS66 Stealth</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$1,899</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/Razer Blade 15.jpg" alt="">
+                <div class="des">
+                    <span>RAZER</span>
+                    <h5>Blade 15</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$1,999</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/Aurora R11.jpg" alt="">
+                <div class="des">
+                    <span>Alienware</span>
+                    <h5>Aurora R11</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$2,199</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/Predator XB273K.jpg" alt="">
+                <div class="des">
+                    <span>Acer</span>
+                    <h5>Predator XB273K</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$1,299</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/UltraGear 27GN950-B.jpg" alt="">
+                <div class="des">
+                    <span>LG</span>
+                    <h5>UltraGear 27GN950-B</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$899</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/ROG Swift PG279Q.jpg" alt="">
+                <div class="des">
+                    <span>ASUS</span>
+                    <h5>ROG Swift PG279Q</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$699</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/Zowie XL2546.jpg" alt="">
+                <div class="des">
+                    <span>BenQ</span>
+                    <h5>Zowie XL2546</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$499</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/ps5.jpg" alt="">
+                <div class="des">
+                    <span>Sony</span>
+                    <h5>PlayStation 5</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$499</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/xbox.jpg" alt="">
+                <div class="des">
+                    <span>Microsoft</span>
+                    <h5>Xbox Series X</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$499</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+            <div class="pro">
+                <img src="pictures/switch.jpg" alt="">
+                <div class="des">
+                    <span>Nintendo</span>
+                    <h5>Nintendo Switch</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$299</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+<script>
+    document.getElementById("car").onclick = function () {
+    location.href = "Cart.html";
+};
+
+</script>
+</body>
+</html>
